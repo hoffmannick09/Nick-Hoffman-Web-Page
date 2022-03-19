@@ -1,0 +1,53 @@
+.color-of-header {
+  background-color: gray;
+}
+
+.color-of-main {
+  background-color: lightsalmon
+}
+
+nav {
+  margin:20px;
+  padding:20px;
+  height:20px;
+  font-family: courier;
+}
+
+h1 {
+  font-family: courier;
+  font-style: oblique;
+}
+
+h2 {
+  font-family: courier;
+  font-size:24px;
+  padding:20px
+}
+
+img {
+  max-width: 300px;
+  max-height: 400px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+h1, h2, h3, .navbar {
+  text-align: center;
+}
+
+a:link {
+  color:skyblue;
+}
+
+a:visited {
+  color:darkgreen
+}
+
+a:active {
+  color:darkgray
+}

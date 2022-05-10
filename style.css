@@ -1,9 +1,9 @@
 .color-of-header {
-  background-color: gray;
+  background-color: rgb(215, 210, 219);
 }
 
 .color-of-main {
-  background-color: lightsalmon
+  background-color: rgb(232, 245, 250)
 }
 
 nav {
@@ -40,8 +40,14 @@ h1, h2, h3, .navbar {
   text-align: center;
 }
 
+/* footer matches head color; confirmed the link styling doesn't cause contrast issue */
+footer {
+  background-color: rgb(215, 210, 219);
+  ;
+}
+
 a:link {
-  color:skyblue;
+  color:darkblue;
 }
 
 a:visited {
@@ -51,3 +57,4 @@ a:visited {
 a:active {
   color:darkgray
 }
+
